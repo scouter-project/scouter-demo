@@ -1,0 +1,30 @@
+20151121 16:07:23 Scouter Server Version 0.3.13 20151121
+  ____                  _            
+ / ___|  ___ ___  _   _| |_ ___ _ __ 
+ \___ \ / __/   \| | | | __/ _ \ '__|
+  ___) | (_| (+) | |_| | ||  __/ |   
+ |____/ \___\___/ \__,_|\__\___|_|                                      
+ Open Source S/W Performance Monitoring  
+ Scouter version 0.3.13 20151121
+ 
+20151121 16:07:23 Load Account Group File
+20151121 16:07:23 Load Account File
+20151121 16:07:23 Load Account Group File
+20151121 16:07:23 Load Account File
+20151121 16:07:23 udp listen 0.0.0.0:6100
+20151121 16:07:23 	udp_host=0.0.0.0
+20151121 16:07:23 	udp_port=6100
+20151121 16:07:23 	udp_buffer=65535
+20151121 16:07:23 	udp_so_rcvbuf=4194304
+20151121 16:07:24 	tcp_port=6100
+20151121 16:07:24 	cp_agent_so_timeout=60000
+20151121 16:07:24 	cp_client_so_timeout=8000
+20151121 16:07:40 Scouter Server Version 0.3.13 20151121
+  ____                  _            
+ / ___|  ___ ___  _   _| |_ ___ _ __ 
+ \___ \ / __/   \| | | | __/ _ \ '__|
+  ___) | (_| (+) | |_| | ||  __/ |   
+ |____/ \___\___/ \__,_|\__\___|_|                                      
+ Open Source S/W Performance Monitoring  
+ Scouter version 0.3.13 20151121
+ 

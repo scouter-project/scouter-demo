@@ -1,0 +1,899 @@
+2015/12/23 23:14:12 INFO  - jmeter.util.JMeterUtils: Setting Locale to ko_KR 
+2015/12/23 23:14:12 ERROR - jmeter.util.JMeterUtils: Could not find resources for 'ko_KR' 
+2015/12/23 23:14:12 INFO  - jmeter.JMeter: Loading user properties from: /Users/gunlee/Documents/workspace/scouter/scouter-demo/jmeter/bin/user.properties 
+2015/12/23 23:14:12 INFO  - jmeter.JMeter: Loading system properties from: /Users/gunlee/Documents/workspace/scouter/scouter-demo/jmeter/bin/system.properties 
+2015/12/23 23:14:12 INFO  - jmeter.JMeter: Copyright (c) 1998-2015 The Apache Software Foundation 
+2015/12/23 23:14:12 INFO  - jmeter.JMeter: Version 2.13 r1665067 
+2015/12/23 23:14:12 INFO  - jmeter.JMeter: java.version=1.8.0_25 
+2015/12/23 23:14:12 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
+2015/12/23 23:14:12 INFO  - jmeter.JMeter: os.name=Mac OS X 
+2015/12/23 23:14:12 INFO  - jmeter.JMeter: os.arch=x86_64 
+2015/12/23 23:14:12 INFO  - jmeter.JMeter: os.version=10.11.2 
+2015/12/23 23:14:12 INFO  - jmeter.JMeter: file.encoding=UTF-8 
+2015/12/23 23:14:12 INFO  - jmeter.JMeter: Default Locale=한국어 (대한민국) 
+2015/12/23 23:14:12 INFO  - jmeter.JMeter: JMeter  Locale=한국어 (대한민국) 
+2015/12/23 23:14:12 INFO  - jmeter.JMeter: JMeterHome=/Users/gunlee/Documents/workspace/scouter/scouter-demo/jmeter 
+2015/12/23 23:14:12 INFO  - jmeter.JMeter: user.dir  =/Users/gunlee/Documents/workspace/scouter/scouter-demo/jmeter/bin 
+2015/12/23 23:14:12 INFO  - jmeter.JMeter: PWD       =/Users/gunlee/Documents/workspace/scouter/scouter-demo/jmeter/bin 
+2015/12/23 23:14:12 INFO  - jmeter.JMeter: IP: 192.168.0.108 Name: LeeGunui-MacBook-Pro.local FullName: 192.168.0.108 
+2015/12/23 23:14:12 INFO  - jmeter.services.FileServer: Default base='/Users/gunlee/Documents/workspace/scouter/scouter-demo/jmeter/bin' 
+2015/12/23 23:14:12 INFO  - jmeter.services.FileServer: Set new base='/Users/gunlee/Documents/workspace/scouter/scouter-demo/jmeter/bin' 
+2015/12/23 23:14:12 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
+2015/12/23 23:14:12 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
+2015/12/23 23:14:12 INFO  - jmeter.save.SaveService: Using SaveService properties file version 1656252 
+2015/12/23 23:14:12 INFO  - jmeter.save.SaveService: Using SaveService properties version 2.8 
+2015/12/23 23:14:12 INFO  - jmeter.save.SaveService: All converter versions present and correct 
+2015/12/23 23:14:12 INFO  - jmeter.save.SaveService: Loading file: scouter-demo1.jmx 
+2015/12/23 23:14:13 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Cannot find .className property for htmlParser, using default 
+2015/12/23 23:14:13 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is  
+2015/12/23 23:14:13 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is  
+2015/12/23 23:14:13 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is  
+2015/12/23 23:14:13 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is  
+2015/12/23 23:14:13 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
+2015/12/23 23:14:13 INFO  - kg.apc.jmeter.threads.UltimateThreadGroup: Profile prop: null 
+2015/12/23 23:14:13 INFO  - jmeter.protocol.http.control.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_ 
+2015/12/23 23:14:13 INFO  - jmeter.JMeter: Creating summariser <summary> 
+2015/12/23 23:14:13 INFO  - jmeter.engine.StandardJMeterEngine: Listeners will be started after enabling running version 
+2015/12/23 23:14:13 INFO  - jmeter.engine.StandardJMeterEngine: To revert to the earlier behaviour, define jmeterengine.startlistenerslater=false 
+2015/12/23 23:14:13 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2015/12/23 23:14:13 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2015/12/23 23:14:13 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2015/12/23 23:14:13 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
+2015/12/23 23:14:13 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
+2015/12/23 23:14:13 INFO  - jmeter.JMeter: Running test (1450880053407) 
+2015/12/23 23:14:13 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : SERVICE-RAMPUP 
+2015/12/23 23:14:13 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group SERVICE-RAMPUP. 
+2015/12/23 23:14:13 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2015/12/23 23:14:13 INFO  - kg.apc.jmeter.threads.AbstractSimpleThreadGroup: Starting thread group number 1 threads 1 
+2015/12/23 23:14:13 INFO  - jmeter.threads.JMeterThread: jmeterthread.startearlier=true (see jmeter.properties) 
+2015/12/23 23:14:13 INFO  - jmeter.threads.JMeterThread: Running PostProcessors in forward order 
+2015/12/23 23:14:13 INFO  - kg.apc.jmeter.threads.AbstractSimpleThreadGroup: Started thread group number 1 
+2015/12/23 23:14:13 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 2 : SERVICE-RAMPUP2 
+2015/12/23 23:14:13 INFO  - jmeter.engine.StandardJMeterEngine: Starting 2 threads for group SERVICE-RAMPUP2. 
+2015/12/23 23:14:13 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2015/12/23 23:14:13 INFO  - kg.apc.jmeter.threads.AbstractSimpleThreadGroup: Starting thread group number 2 threads 2 
+2015/12/23 23:14:13 INFO  - kg.apc.jmeter.threads.AbstractSimpleThreadGroup: Started thread group number 2 
+2015/12/23 23:14:13 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 3 : E2E-FIXUSER 
+2015/12/23 23:14:13 INFO  - jmeter.threads.JMeterThread: Thread started: SERVICE-RAMPUP 1-1 
+2015/12/23 23:14:13 INFO  - jmeter.engine.StandardJMeterEngine: Starting 2 threads for group E2E-FIXUSER. 
+2015/12/23 23:14:13 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2015/12/23 23:14:13 INFO  - kg.apc.jmeter.threads.AbstractSimpleThreadGroup: Starting thread group number 3 threads 2 
+2015/12/23 23:14:13 INFO  - kg.apc.jmeter.threads.UltimateThreadGroup: Profile prop: null 
+2015/12/23 23:14:13 INFO  - kg.apc.jmeter.threads.UltimateThreadGroup: Profile prop: null 
+2015/12/23 23:14:13 INFO  - kg.apc.jmeter.threads.AbstractSimpleThreadGroup: Started thread group number 3 
+2015/12/23 23:14:13 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 4 : PetStore Case 1 
+2015/12/23 23:14:13 INFO  - jmeter.engine.StandardJMeterEngine: Starting 12 threads for group PetStore Case 1. 
+2015/12/23 23:14:13 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2015/12/23 23:14:13 INFO  - kg.apc.jmeter.threads.AbstractSimpleThreadGroup: Starting thread group number 4 threads 12 
+2015/12/23 23:14:13 INFO  - kg.apc.jmeter.threads.AbstractSimpleThreadGroup: Started thread group number 4 
+2015/12/23 23:14:13 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2015/12/23 23:14:15 INFO  - jmeter.threads.JMeterThread: Thread started: SERVICE-RAMPUP2 2-1 
+2015/12/23 23:14:15 INFO  - jmeter.threads.JMeterThread: Thread started: PetStore Case 1 4-1 
+2015/12/23 23:14:15 INFO  - jmeter.threads.JMeterThread: Thread started: E2E-FIXUSER 3-2 
+2015/12/23 23:14:15 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:15 INFO  - jmeter.threads.JMeterThread: Thread started: PetStore Case 1 4-2 
+2015/12/23 23:14:16 INFO  - jmeter.protocol.http.sampler.HTTPHCAbstractImpl: Local host = LeeGunui-MacBook-Pro.local 
+2015/12/23 23:14:16 INFO  - jmeter.protocol.http.sampler.HTTPHC4Impl: HTTP request retry count = 0 
+2015/12/23 23:14:16 INFO  - jmeter.protocol.http.sampler.HTTPHC4Impl: Setting up HTTPS TrustAll scheme 
+2015/12/23 23:14:16 INFO  - jmeter.util.JsseSSLManager: Using default SSL protocol: TLS 
+2015/12/23 23:14:16 INFO  - jmeter.util.JsseSSLManager: SSL session context: per-thread 
+2015/12/23 23:14:16 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
+2015/12/23 23:14:16 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
+2015/12/23 23:14:16 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
+2015/12/23 23:14:16 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
+2015/12/23 23:14:16 INFO  - jmeter.threads.JMeterThread: Thread started: E2E-FIXUSER 3-1 
+2015/12/23 23:14:16 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:17 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:17 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:17 INFO  - jmeter.threads.JMeterThread: Thread started: PetStore Case 1 4-3 
+2015/12/23 23:14:17 INFO  - jmeter.threads.JMeterThread: Thread started: PetStore Case 1 4-4 
+2015/12/23 23:14:17 INFO  - jmeter.threads.JMeterThread: Thread started: PetStore Case 1 4-5 
+2015/12/23 23:14:18 INFO  - jmeter.threads.JMeterThread: Thread started: PetStore Case 1 4-6 
+2015/12/23 23:14:18 INFO  - jmeter.threads.JMeterThread: Thread started: SERVICE-RAMPUP2 2-2 
+2015/12/23 23:14:18 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:18 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:19 INFO  - jmeter.threads.JMeterThread: Thread started: PetStore Case 1 4-7 
+2015/12/23 23:14:19 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:19 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:19 INFO  - jmeter.threads.JMeterThread: Thread started: PetStore Case 1 4-8 
+2015/12/23 23:14:19 INFO  - jmeter.threads.JMeterThread: Thread started: PetStore Case 1 4-9 
+2015/12/23 23:14:20 INFO  - jmeter.threads.JMeterThread: Thread started: PetStore Case 1 4-10 
+2015/12/23 23:14:20 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:20 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:21 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:21 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:21 INFO  - jmeter.threads.JMeterThread: Thread started: PetStore Case 1 4-11 
+2015/12/23 23:14:21 INFO  - jmeter.threads.JMeterThread: Thread started: PetStore Case 1 4-12 
+2015/12/23 23:14:22 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:22 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:22 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:22 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:24 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:24 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:24 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:24 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:25 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:25 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:26 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:26 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:26 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:26 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:28 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:28 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:28 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:28 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:30 INFO  - jmeter.reporters.Summariser: summary +    100 in    17s =    6.0/s Avg:   237 Min:     1 Max:  2265 Err:    29 (29.00%) Active: 17 Started: 17 Finished: 0 
+2015/12/23 23:14:30 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:30 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:30 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:30 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:32 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:32 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:32 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:32 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:34 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:34 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:34 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:34 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:35 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:35 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:36 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:36 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:36 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:36 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:37 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:37 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:37 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:37 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:39 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:39 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:40 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:40 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:40 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:40 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:41 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:41 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:41 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:41 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:42 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:42 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:42 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:42 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:43 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:43 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:44 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:44 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:44 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: SERVICE-RAMPUP 1-1 
+2015/12/23 23:14:44 INFO  - jmeter.threads.JMeterThread: Thread finished: SERVICE-RAMPUP 1-1 
+2015/12/23 23:14:44 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:44 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:45 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:45 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:46 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:46 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:46 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:46 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:47 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:47 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:48 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:48 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:48 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:48 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:50 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:50 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:51 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:51 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:51 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:51 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:52 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:52 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:53 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:53 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:55 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:55 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:55 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:55 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:56 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:56 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:56 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:56 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:57 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:57 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:58 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:58 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:59 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:59 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:59 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:14:59 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:00 INFO  - jmeter.reporters.Summariser: summary +    283 in  30.2s =    9.4/s Avg:   212 Min:     0 Max:  2683 Err:    36 (12.72%) Active: 16 Started: 17 Finished: 1 
+2015/12/23 23:15:00 INFO  - jmeter.reporters.Summariser: summary =    383 in    47s =    8.2/s Avg:   219 Min:     0 Max:  2683 Err:    65 (16.97%) 
+2015/12/23 23:15:00 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:00 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:01 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:01 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:02 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:02 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:04 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:04 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:04 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:04 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:06 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:06 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:07 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:07 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:07 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:07 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:08 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:08 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:10 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:10 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:10 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:10 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:11 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:11 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:12 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:12 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:13 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:13 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:14 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:14 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:14 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:14 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:15 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:15 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:16 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:16 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:17 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:17 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:18 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:18 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:19 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:19 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:19 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:19 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:21 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:21 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:21 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:21 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:22 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:22 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:23 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:23 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:25 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:25 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:25 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:25 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:26 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:26 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:26 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:26 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:27 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:27 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:29 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:29 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:29 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:29 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:30 INFO  - jmeter.reporters.Summariser: summary +    267 in    30s =    8.9/s Avg:   215 Min:     0 Max:  2742 Err:    36 (13.48%) Active: 16 Started: 17 Finished: 1 
+2015/12/23 23:15:30 INFO  - jmeter.reporters.Summariser: summary =    650 in    77s =    8.5/s Avg:   217 Min:     0 Max:  2742 Err:   101 (15.54%) 
+2015/12/23 23:15:30 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:30 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:31 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:31 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:31 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:31 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:33 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:33 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:33 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:33 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:34 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:34 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:34 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:34 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:36 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:36 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:36 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:36 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:37 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:37 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:38 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:38 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:38 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:38 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:39 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:39 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:40 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:40 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:40 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:40 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:41 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:41 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:42 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:42 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:43 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:43 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:44 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:44 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:44 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:44 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:45 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:45 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:46 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:46 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:47 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:47 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:48 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:48 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:48 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:48 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:50 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:50 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:50 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:50 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:52 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:52 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:52 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:52 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:53 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:53 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:54 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:54 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:55 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:55 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:55 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:55 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:56 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:56 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:57 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:57 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:58 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:58 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:59 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:15:59 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:00 INFO  - jmeter.reporters.Summariser: summary +    283 in    30s =    9.5/s Avg:   206 Min:     0 Max:  2397 Err:    41 (14.49%) Active: 16 Started: 17 Finished: 1 
+2015/12/23 23:16:00 INFO  - jmeter.reporters.Summariser: summary =    933 in   107s =    8.8/s Avg:   214 Min:     0 Max:  2742 Err:   142 (15.22%) 
+2015/12/23 23:16:00 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:00 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:01 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:01 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:01 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:01 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:03 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:03 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:03 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:03 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:04 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:04 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:05 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:05 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:06 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:06 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:07 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:07 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:08 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:08 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:08 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:08 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:10 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:10 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:10 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:10 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:11 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:11 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:12 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:12 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:12 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:12 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:14 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:14 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:14 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:14 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:16 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:16 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:16 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:16 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:17 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:17 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:18 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:18 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:19 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:19 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:19 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:19 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:21 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:21 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:21 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:21 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:22 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:22 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:22 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:22 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:23 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:23 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:24 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:24 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:25 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:25 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:26 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:26 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:26 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:26 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:28 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:28 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:28 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:28 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:29 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:29 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:30 INFO  - jmeter.reporters.Summariser: summary +    280 in  30.1s =    9.3/s Avg:   201 Min:     0 Max:  2545 Err:    43 (15.36%) Active: 16 Started: 17 Finished: 1 
+2015/12/23 23:16:30 INFO  - jmeter.reporters.Summariser: summary =   1213 in   137s =    8.9/s Avg:   211 Min:     0 Max:  2742 Err:   185 (15.25%) 
+2015/12/23 23:16:30 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:30 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:31 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:31 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:31 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:31 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:34 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:34 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:34 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:34 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:35 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:35 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:36 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:36 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:36 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:36 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:38 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:38 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:38 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:38 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:40 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:40 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:40 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:40 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:41 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:41 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:42 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:42 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:44 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:44 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:44 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:44 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:46 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:46 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:46 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:46 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:47 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:47 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:47 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:47 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:48 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:48 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:49 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:49 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:49 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:49 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:51 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:51 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:51 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:51 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:51 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:51 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:51 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:51 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:53 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:53 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:53 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:53 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:54 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:54 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:55 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:55 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:55 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:55 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:56 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:56 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:57 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:57 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:57 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:57 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:58 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:58 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:59 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:16:59 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:00 INFO  - jmeter.reporters.Summariser: summary +    278 in  30.1s =    9.2/s Avg:   206 Min:     0 Max:  2592 Err:    44 (15.83%) Active: 16 Started: 17 Finished: 1 
+2015/12/23 23:17:00 INFO  - jmeter.reporters.Summariser: summary =   1491 in   167s =    8.9/s Avg:   210 Min:     0 Max:  2742 Err:   229 (15.36%) 
+2015/12/23 23:17:00 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:00 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:00 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:00 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:02 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:02 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:02 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:02 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:03 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:03 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:04 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:04 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:05 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:05 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:05 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:05 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:06 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:06 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:07 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:07 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:08 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:08 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:08 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:08 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:09 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:09 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:09 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:09 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:10 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:10 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:12 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:12 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:12 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:12 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:13 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:13 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:14 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:14 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:16 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:16 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:16 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:16 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:17 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:17 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:17 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:17 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:19 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:19 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:19 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:19 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:20 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:20 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:20 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:20 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:21 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:21 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:22 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:22 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:23 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:23 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:23 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:23 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:25 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:25 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:25 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:25 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:26 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:26 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:27 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:27 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:28 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:28 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:28 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:28 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:29 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:29 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:30 INFO  - jmeter.reporters.Summariser: summary +    277 in    30s =    9.3/s Avg:   203 Min:     0 Max:  2477 Err:    48 (17.33%) Active: 16 Started: 17 Finished: 1 
+2015/12/23 23:17:30 INFO  - jmeter.reporters.Summariser: summary =   1768 in   197s =    9.0/s Avg:   209 Min:     0 Max:  2742 Err:   277 (15.67%) 
+2015/12/23 23:17:30 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:30 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:31 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:31 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:32 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:32 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:32 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:32 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:33 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:33 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:34 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:34 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:35 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:35 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:36 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:36 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:37 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:37 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:38 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:38 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:39 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:39 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:39 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:39 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:40 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:40 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:41 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:41 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:41 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:41 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:42 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:42 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:43 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:43 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:43 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:43 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:44 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:44 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:45 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:45 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:45 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:45 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:47 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:47 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:47 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:47 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:49 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:49 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:49 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:49 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:50 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:50 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:51 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:51 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:52 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:52 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:53 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:53 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:54 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:54 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:55 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:55 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:55 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:55 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:56 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:56 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:57 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:57 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:57 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:57 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:58 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:58 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:59 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:17:59 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:00 INFO  - jmeter.reporters.Summariser: summary +    276 in    30s =    9.2/s Avg:   209 Min:     0 Max:  2469 Err:    45 (16.30%) Active: 16 Started: 17 Finished: 1 
+2015/12/23 23:18:00 INFO  - jmeter.reporters.Summariser: summary =   2044 in   227s =    9.0/s Avg:   209 Min:     0 Max:  2742 Err:   322 (15.75%) 
+2015/12/23 23:18:00 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:00 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:00 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:00 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:02 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:02 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:03 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:03 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:03 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:03 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:05 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:05 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:05 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:05 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:07 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:07 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:07 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:07 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:08 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:08 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:09 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:09 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:10 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:10 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:10 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:10 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:12 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:12 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:12 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:12 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:13 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:13 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:13 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:13 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:15 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:15 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:16 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:16 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:16 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:16 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:17 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:17 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:18 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:18 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:18 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:18 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:20 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:20 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:20 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:20 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:20 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:20 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:21 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:21 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:22 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:22 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:22 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:22 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:24 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:24 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:24 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:24 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:26 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:26 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:27 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:27 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:28 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:28 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:29 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:29 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:30 INFO  - jmeter.reporters.Summariser: summary +    267 in    30s =    8.9/s Avg:   215 Min:     0 Max:  2541 Err:    37 (13.86%) Active: 16 Started: 17 Finished: 1 
+2015/12/23 23:18:30 INFO  - jmeter.reporters.Summariser: summary =   2311 in   257s =    9.0/s Avg:   209 Min:     0 Max:  2742 Err:   359 (15.53%) 
+2015/12/23 23:18:30 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:30 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:31 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:31 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:32 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:32 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:32 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:32 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:33 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:33 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:33 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:33 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:34 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:34 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:35 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:35 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:36 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:36 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:36 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:36 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:37 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:37 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:38 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:38 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:39 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:39 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:40 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:40 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:41 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:41 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:42 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:42 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:42 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:42 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:44 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:44 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:44 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:44 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:45 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:45 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:46 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:46 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:47 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:47 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:48 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:48 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:48 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:48 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:50 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:50 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:50 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:50 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:51 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:51 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:52 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:52 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:53 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:53 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:53 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:53 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:54 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:54 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:55 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:55 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:56 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:56 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:56 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:56 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:57 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:57 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:58 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:58 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:59 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:59 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:59 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:18:59 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:00 INFO  - jmeter.reporters.Summariser: summary +    281 in    30s =    9.4/s Avg:   208 Min:     0 Max:  2688 Err:    40 (14.23%) Active: 16 Started: 17 Finished: 1 
+2015/12/23 23:19:00 INFO  - jmeter.reporters.Summariser: summary =   2592 in   287s =    9.0/s Avg:   209 Min:     0 Max:  2742 Err:   399 (15.39%) 
+2015/12/23 23:19:00 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:00 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:00 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:00 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:01 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:01 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:01 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:01 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:02 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:02 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:03 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:03 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:04 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:04 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:06 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:06 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:07 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:07 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:07 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:07 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:09 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:09 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:09 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:09 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:10 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:10 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:11 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:11 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:12 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:12 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:13 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:13 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:13 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:13 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:15 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:15 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:15 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:15 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:16 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:16 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:16 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:16 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:17 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:17 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:18 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:18 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:18 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:18 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:19 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:19 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:20 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:20 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:21 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:21 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:21 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: E2E-FIXUSER 3-2 
+2015/12/23 23:19:21 INFO  - jmeter.threads.JMeterThread: Thread finished: E2E-FIXUSER 3-2 
+2015/12/23 23:19:22 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: PetStore Case 1 4-2 
+2015/12/23 23:19:22 INFO  - jmeter.threads.JMeterThread: Thread finished: PetStore Case 1 4-2 
+2015/12/23 23:19:23 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: PetStore Case 1 4-1 
+2015/12/23 23:19:23 INFO  - jmeter.threads.JMeterThread: Thread finished: PetStore Case 1 4-1 
+2015/12/23 23:19:24 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: PetStore Case 1 4-3 
+2015/12/23 23:19:24 INFO  - jmeter.threads.JMeterThread: Thread finished: PetStore Case 1 4-3 
+2015/12/23 23:19:24 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:24 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:25 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:25 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:26 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: PetStore Case 1 4-4 
+2015/12/23 23:19:26 INFO  - jmeter.threads.JMeterThread: Thread finished: PetStore Case 1 4-4 
+2015/12/23 23:19:26 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:26 WARN  - jmeter.protocol.http.sampler.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager 
+2015/12/23 23:19:26 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: PetStore Case 1 4-6 
+2015/12/23 23:19:26 INFO  - jmeter.threads.JMeterThread: Thread finished: PetStore Case 1 4-6 
+2015/12/23 23:19:27 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: PetStore Case 1 4-5 
+2015/12/23 23:19:27 INFO  - jmeter.threads.JMeterThread: Thread finished: PetStore Case 1 4-5 
+2015/12/23 23:19:28 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: PetStore Case 1 4-7 
+2015/12/23 23:19:28 INFO  - jmeter.threads.JMeterThread: Thread finished: PetStore Case 1 4-7 
+2015/12/23 23:19:28 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: E2E-FIXUSER 3-1 
+2015/12/23 23:19:28 INFO  - jmeter.threads.JMeterThread: Thread finished: E2E-FIXUSER 3-1 
+2015/12/23 23:19:29 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: PetStore Case 1 4-8 
+2015/12/23 23:19:29 INFO  - jmeter.threads.JMeterThread: Thread finished: PetStore Case 1 4-8 
+2015/12/23 23:19:30 INFO  - jmeter.reporters.Summariser: summary +    253 in    30s =    8.5/s Avg:   192 Min:     0 Max:  2413 Err:    36 (14.23%) Active: 6 Started: 17 Finished: 11 
+2015/12/23 23:19:30 INFO  - jmeter.reporters.Summariser: summary =   2845 in   317s =    9.0/s Avg:   208 Min:     0 Max:  2742 Err:   435 (15.29%) 
+2015/12/23 23:19:30 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: PetStore Case 1 4-9 
+2015/12/23 23:19:30 INFO  - jmeter.threads.JMeterThread: Thread finished: PetStore Case 1 4-9 
+2015/12/23 23:19:31 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: PetStore Case 1 4-10 
+2015/12/23 23:19:31 INFO  - jmeter.threads.JMeterThread: Thread finished: PetStore Case 1 4-10 
+2015/12/23 23:19:32 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: PetStore Case 1 4-12 
+2015/12/23 23:19:32 INFO  - jmeter.threads.JMeterThread: Thread finished: PetStore Case 1 4-12 
+2015/12/23 23:19:33 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: PetStore Case 1 4-11 
+2015/12/23 23:19:33 INFO  - jmeter.threads.JMeterThread: Thread finished: PetStore Case 1 4-11 
+2015/12/23 23:20:13 INFO  - jmeter.reporters.ResultCollector: Shutdown hook started 
+2015/12/23 23:20:13 INFO  - jmeter.reporters.ResultCollector: Shutdown hook ended 

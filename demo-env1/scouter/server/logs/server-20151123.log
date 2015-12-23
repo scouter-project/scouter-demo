@@ -1,0 +1,9 @@
+20151123 09:04:29 [S104] New OBJECT  objType=tomcat objHash=x1m4tqbs objName=/LeeGunui-MacBook-Pro.local/tomcat1 addr=127.0.0.1 0.3.13 20151121 alive 2015-11-23 09:04:29.955
+20151123 09:04:41 [S104] New OBJECT  objType=reqproc objHash=x1s353ob objName=/LeeGunui-MacBook-Pro.local/tomcat1/ajp-bio-8009 alive 2015-11-23 09:04:41.914
+20151123 09:04:41 [S104] New OBJECT  objType=datasource objHash=z1afofto objName=/LeeGunui-MacBook-Pro.local/tomcat1/jdbc_tunaDs alive 2015-11-23 09:04:41.92
+20151123 09:04:41 [S104] New OBJECT  objType=reqproc objHash=z5qvjh9 objName=/LeeGunui-MacBook-Pro.local/tomcat1/http-bio-8080 alive 2015-11-23 09:04:41.92
+20151123 09:04:44 [S145] GeoIP db file is not readable : /Users/gunlee/Documents/workspace/scouter/scouter/scouter.deploy/out/package/scouter/server/GeoLiteCity.dat
+20151124 15:07:33 [S105] Update OBJECT  objType=tomcat objHash=x1m4tqbs objName=/LeeGunui-MacBook-Pro.local/tomcat1 addr=127.0.0.1 0.3.13 20151121 alive 2015-11-24 15:07:33.373
+20151124 15:07:33 [S105] Update OBJECT  objType=reqproc objHash=x1s353ob objName=/LeeGunui-MacBook-Pro.local/tomcat1/ajp-bio-8009 alive 2015-11-24 15:07:33.377
+20151124 15:07:33 [S105] Update OBJECT  objType=reqproc objHash=z5qvjh9 objName=/LeeGunui-MacBook-Pro.local/tomcat1/http-bio-8080 alive 2015-11-24 15:07:33.379
+20151124 15:07:33 [S105] Update OBJECT  objType=datasource objHash=z1afofto objName=/LeeGunui-MacBook-Pro.local/tomcat1/jdbc_tunaDs alive 2015-11-24 15:07:33.379

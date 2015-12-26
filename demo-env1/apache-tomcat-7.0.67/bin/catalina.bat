@@ -185,8 +185,8 @@ set "JAVA_OPTS=%JAVA_OPTS% %LOGGING_MANAGER%"
 
 rem ###### SCOUTER OPTIONS ###########################################################
 if "%1"=="stop" goto skip_agent
-set JAVA_OPTS=%JAVA_OPTS% -javaagent:%CATALINA_HOME%/../scouter/agent.java/scouter.agent.jar
-set JAVA_OPTS=%JAVA_OPTS% -Dscouter.config=%CATALINA_HOME%/../confmyTomcat1.conf
+set JAVA_OPTS=%JAVA_OPTS% -javaagent:%CATALINA_HOME%\..\scouter\agent.java\scouter.agent.jar
+set JAVA_OPTS=%JAVA_OPTS% -Dscouter.config=%CATALINA_HOME%\..\conf\myTomcat1.conf
 rem set JAVA_OPTS=%JAVA_OPTS% -Dnet_collector_ip=127.0.0.1
 
 :skip_agent

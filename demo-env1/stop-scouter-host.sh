@@ -1,3 +1,3 @@
 cd ./scouter/agent.host
-stop.sh
+./stop.sh
 cd ../..

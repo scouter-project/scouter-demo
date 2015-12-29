@@ -1,3 +1,3 @@
 cd ./scouter/server
-startup.sh
+./startup.sh
 cd ../..

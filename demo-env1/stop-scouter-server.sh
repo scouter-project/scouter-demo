@@ -1,3 +1,3 @@
 cd ./scouter/server
-stop.sh
+./stop.sh
 cd ../..

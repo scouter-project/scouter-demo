@@ -1,4 +1,0 @@
-20151127 08:21:54 [S105] Update OBJECT  objType=tomcat objHash=x1m4tqbs objName=/LeeGunui-MacBook-Pro.local/tomcat1 addr=127.0.0.1 0.3.13 20151121 alive 2015-11-27 08:21:54.738
-20151127 08:21:54 [S105] Update OBJECT  objType=reqproc objHash=x1s353ob objName=/LeeGunui-MacBook-Pro.local/tomcat1/ajp-bio-8009 alive 2015-11-27 08:21:54.74
-20151127 08:21:54 [S105] Update OBJECT  objType=reqproc objHash=z5qvjh9 objName=/LeeGunui-MacBook-Pro.local/tomcat1/http-bio-8080 alive 2015-11-27 08:21:54.74
-20151127 08:21:54 [S105] Update OBJECT  objType=datasource objHash=z1afofto objName=/LeeGunui-MacBook-Pro.local/tomcat1/jdbc_tunaDs alive 2015-11-27 08:21:54.74

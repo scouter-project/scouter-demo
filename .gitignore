@@ -1,2 +1,4 @@
 target/
 *.log
+demo-env1/scouter/server/database/
+demo-env1/apache-tomcat-7.0.67/logs/

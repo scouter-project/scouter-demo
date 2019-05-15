@@ -38,7 +38,7 @@ for /f "tokens=3" %%g in ('java -version 2^>^&1 ^| findstr /i "version"') do (
 if not defined JAVAVER (
     @echo Not able to find Java executable or version. Please check your Java installation.
     set ERRORLEVEL=2
-    goto pause
+rem    goto pause
 )
 set JAVAVER=%JAVAVER:"=%
 for /f "delims=. tokens=1-3" %%v in ("%JAVAVER%") do (
@@ -52,13 +52,13 @@ for /f "delims=. tokens=1-3" %%v in ("%MINIMAL_VERSION%") do (
 if not defined current_minor (
     @echo Not able to find Java executable or version. Please check your Java installation.
     set ERRORLEVEL=2
-    goto pause
+rem    goto pause
 )
 rem @echo Debug: CURRENT=%current_minor% - MINIMAL=%minimal_minor%
 if %current_minor% LSS %minimal_minor% (
     @echo Error: Java version -- %JAVAVER% -- is too low to run JMeter. Needs a Java version greater than or equal to %MINIMAL_VERSION%
     set ERRORLEVEL=3
-    goto pause
+rem    goto pause
 )
 
 if .%JM_LAUNCH% == . set JM_LAUNCH=java.exe

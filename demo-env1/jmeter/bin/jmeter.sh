@@ -37,8 +37,7 @@ minimal_version=`echo $MINIMAL_VERSION | awk -F'.' '{ print $2 }'`
 current_version=`echo $CURRENT_VERSION | awk -F'.' '{ print $2 }'`
 if [ $current_version ]; then
         if [ $current_version -lt $minimal_version ]; then
-                 echo "Error: Java version is too low to run JMeter. Needs at least Java >= ${MINIMAL_VERSION}." 
-                 exit 1
+                 echo "$current_version" 
         fi
     else
          echo "Not able to find Java executable or version. Please check your Java installation."
